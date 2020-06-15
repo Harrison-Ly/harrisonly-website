@@ -1,0 +1,44 @@
+html, body, .container-fluid {
+  background-color: black;
+  height:100%;
+}
+.no-margin {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.rowheader {
+  height: 15%;
+}
+.rowcontent {
+  height: 85%;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 5em;
+  font-family: 'Montserrat', serif;
+  line-height: 1em;
+  letter-spacing: -0.11em;
+  color: white;
+}
+a:link, a:visited, a:hover {
+  color: white;
+}
+a:hover {
+  font-weight:bold;
+  text-decoration: none;
+}
+.header {
+  text-transform: uppercase;
+}
+.dev {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/background_dev.jpg");
+  background-position: center; 
+}
+.comp {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/background_comp.jpg");
+  background-position: center; 
+}
